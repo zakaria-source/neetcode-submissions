@@ -1,6 +1,6 @@
 # NeetCode — Java Interview Practice
 
-A structured collection of data-structure and algorithm exercises solved primarily in **Java** for technical interview preparation.
+A Java interview-practice repository synced from **NeetCode.io**, used to work through data-structure and algorithm patterns and keep accepted solutions easy to revisit.
 
 > Solutions are synced automatically from NeetCode.io.
 
@@ -8,7 +8,7 @@ A structured collection of data-structure and algorithm exercises solved primari
 
 This repository is used to practice reusable problem-solving patterns rather than simply accumulate accepted submissions.
 
-For each topic, the focus is on:
+For each problem, the focus is on:
 
 - Recognizing the underlying pattern quickly
 - Writing clear and idiomatic Java
@@ -16,7 +16,7 @@ For each topic, the focus is on:
 - Handling edge cases deliberately
 - Revisiting problems that required hints
 
-## Topics
+## Target Topics
 
 ```text
 Arrays & Hashing
@@ -60,14 +60,15 @@ The Java solutions emphasize:
 
 ## Repository Structure
 
-NeetCode automatically organizes synced submissions by topic and problem. Multiple submissions may exist for the same problem as the solution evolves.
+NeetCode sync currently groups submissions under a category directory, then by problem. Multiple submissions may exist for the same problem as the solution evolves.
 
 ```text
-<topic>/
+Data Structures & Algorithms/
   <problem>/
-    submission-0.java
-    submission-1.java
+    submission-<n>.java
 ```
+
+The exact set of problems grows as new submissions are synced.
 
 ## Why This Repository Exists
 
